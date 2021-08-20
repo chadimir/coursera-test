@@ -1,3 +1,14 @@
 body {
   background-color: white;
 }
+
+.maincontainer {
+  display: flex;
+  width: 100%;
+}
+
+.infocards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
