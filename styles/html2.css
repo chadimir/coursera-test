@@ -44,10 +44,13 @@ body {
 .maincontent p {
   font-size: .83em;
   color: #777;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -15px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  height: 30px;
 }
