@@ -16,13 +16,14 @@ body {
 }
 
 .maincontent h5 {
-  font-weight: 900;
-  text-align: center;
+  font-weight: bold;
 }
 
-.maincontent {
+.card {
   width: 200px;
-  height: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
   border-radius: 5px;
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -30,6 +31,12 @@ body {
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 2.8px 2.2px rgba(0, 0, 0, 0.034)
 ;
+}
+
+.maincontent {
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
   display: flex;
   flex-direction: row;
 }
@@ -53,4 +60,19 @@ body {
 .text {
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  align-content: center;
+}
+
+.footer a {
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+  color: #777;
+  font-size: .83em;
+  position: relative;
+  left: 20px;
 }
