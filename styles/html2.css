@@ -17,6 +17,7 @@ body {
 
 .maincontent h5 {
   font-weight: 900;
+  text-align: center;
 }
 
 .maincontent {
@@ -29,5 +30,24 @@ body {
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 2.8px 2.2px rgba(0, 0, 0, 0.034)
 ;
+  display: flex;
+  flex-direction: row;
+}
 
+.maincontent img {
+  height: 30px;
+  width: 30px;
+  /* margin: 20px 5px 0px 10px; */
+  margin: 20px;
+}
+
+.maincontent p {
+  font-size: .83em;
+  color: #777;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
 }
