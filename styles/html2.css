@@ -69,6 +69,8 @@ body {
   height: 40px;
   display: flex;
   align-content: center;
+  flex-direction: row;
+  width: 200px;
 }
 
 .footer a {
@@ -78,4 +80,14 @@ body {
   font-size: .83em;
   position: relative;
   left: 20px;
+}
+
+.footer i {
+  opacity: 0.4;
+  position: relative;
+  transform: rotate(-40deg);
+  font-size: .83em;
+  display: flex;
+  margin-left: auto;
+  right: 10px;
 }
