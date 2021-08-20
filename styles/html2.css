@@ -91,3 +91,10 @@ body {
   margin-left: auto;
   right: 10px;
 }
+
+@media (max-width: 500px) {
+  .infocards {
+    display: flex;
+    flex-direction: column;
+  }
+}
