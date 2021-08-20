@@ -14,3 +14,7 @@ body {
   width: 100%;
   font-family: roboto;
 }
+
+.maincontent h5 {
+  font-weight: 900;
+}
