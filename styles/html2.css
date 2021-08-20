@@ -18,3 +18,16 @@ body {
 .maincontent h5 {
   font-weight: 900;
 }
+
+.maincontent {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034)
+;
+
+}
