@@ -101,8 +101,35 @@ body {
   font-family: roboto, sans-serif;
 }
 
+.cardcontent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.cardc {
+  font-family: roboto, sans-serif;
+  width: 200px;
+  height: 100px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034)
+;
+  text-align: center;
+}
+
+.cardc:hover {
+  background-color: #777;
+}
 @media (max-width: 500px) {
   .infocards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardcontent {
     display: flex;
     flex-direction: column;
   }
