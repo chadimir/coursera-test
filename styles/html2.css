@@ -97,6 +97,10 @@ body {
   font-family: roboto, sans-serif;
 }
 
+.thirdcontent {
+  font-family: roboto, sans-serif;
+}
+
 @media (max-width: 500px) {
   .infocards {
     display: flex;
