@@ -122,6 +122,7 @@ body {
 
 .cardc:hover {
   background-color: #777;
+  color: #fff;
 }
 @media (max-width: 500px) {
   .infocards {
