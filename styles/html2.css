@@ -92,6 +92,10 @@ body {
   right: 10px;
 }
 
+.secondarycontent {
+  font-family: roboto, sans-serif;
+}
+
 @media (max-width: 500px) {
   .infocards {
     display: flex;
